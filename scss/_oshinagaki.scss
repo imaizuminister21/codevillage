@@ -1,0 +1,32 @@
+.oshinagaki {
+  padding-bottom: 170px;
+}
+
+.oshinagaki-text {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.oshinagaki-img-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  .img-1 {
+    width: 60%;
+    margin-right: 1%;
+    padding-bottom: 15px;
+  }
+  .img-2 {
+    width: 39%;
+    padding-bottom: 15px;
+  }
+  .img-3 {
+    width: 68%;
+    margin-right: 1%;
+  }
+  .img-4 {
+    width: 31%;
+  }
+}

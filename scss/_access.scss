@@ -1,0 +1,31 @@
+.access {
+  width: 100%;
+  height: 519px;
+  margin-bottom: 171.5px;
+  position: relative;
+}
+
+.access-map {
+  .access-map-img {
+    width: 68%;
+    height: 57%;
+    position: absolute;
+    // top: 129px;
+    right: 0;
+  }
+}
+
+.address {
+  width: 76%;
+  height: 57%;
+  background-color: #800000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-top: 218px;
+  p {
+    padding-left: 4%;
+    line-height: 32px;
+    // line-height: 100%;
+  }
+}

@@ -1,0 +1,54 @@
+///////////////////
+//////@mix-in//////
+///////////////////
+
+@mixin pc {
+  @media screen and (min-width: 960px) {
+    @content;
+  }
+}
+@mixin tab {
+  @media screen and (max-width: 959px) {
+    @content;
+  }
+}
+@mixin sp {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+////////////////////
+/////// 共通 ///////
+////////////////////
+
+html {
+  font-size: 62.5%; //ブラウザのデフォルトフォントサイズの62.5%。10px
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: black;
+  color: white;
+}
+body {
+  font-size: 12px;
+  line-height: 1.67;
+}
+p {
+  font-size: 18px;
+}
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 70.5px;
+  &:after {
+    display: block;
+    content: "";
+    width: 8.9rem;
+    border-bottom: 1px solid #fff;
+    margin: 2rem auto;
+  }
+}
+.inner {
+  width: 100% - 7% * 2; //7%は両側の余白
+  margin: 0 auto;
+  padding: 0;
+}
