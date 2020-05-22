@@ -1,0 +1,44 @@
+.side-menu {
+  width: 16%;
+  height: 100vh;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 6px #00000029;
+  // position: fixed;
+  display: inline-block;
+  // margin-top: 53.36px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  // left: 0;
+  // margin: 0;
+  //sidemenuのwidthは全体の16％
+}
+.side-menu-list {
+  width: 100%;
+  li {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+    width: 100%;
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+    border-right: 1px solid rgba(204, 204, 204, 1);
+    padding: 0 17%;
+    margin: 0;
+    &:hover {
+      background-color: #222;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
+.fa-chevron-right {
+  color: rgba(204, 204, 204, 1);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: right;
+}
